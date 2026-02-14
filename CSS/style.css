@@ -780,7 +780,6 @@ footer  .bottom_footer .payment_img{
 .cart .items_in_cart .item_cart{
     display: flex;
     gap: 20px;
-    width:100%;
     align-items: center;
     justify-content: center;
     height: 125px;
@@ -1084,7 +1083,7 @@ color: var(--color_heading);
     }
 
     .banners .banners_boxs.banner_3_img .box{
-        width: 100%;
+        width: 100% !important;
     }
 
 
@@ -1113,7 +1112,9 @@ color: var(--color_heading);
 
 
 
-
+.swiper-wrapper{
+    width: 100% !important;
+}
 
 
 
@@ -1274,5 +1275,4 @@ color: var(--color_heading);
 .checkout .ordersummary .button_div button:hover{
     background: transparent;
     color: var(--main_color);
-
 }
