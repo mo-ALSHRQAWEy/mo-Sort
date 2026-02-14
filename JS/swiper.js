@@ -43,8 +43,8 @@ var swiper = new Swiper(".slide-swp", {
 
       },
       0:{
-        slidesPerView : 2,
-        spaceBetween: 10
+        slidesPerView : 1,
+        spaceBetween: 18
       }
     }
   });
