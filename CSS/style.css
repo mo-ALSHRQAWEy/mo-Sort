@@ -1083,7 +1083,7 @@ color: var(--color_heading);
     }
 
     .banners .banners_boxs.banner_3_img .box{
-        width: 100% !important;
+        width: 100%;
     }
 
 
@@ -1112,9 +1112,7 @@ color: var(--color_heading);
 
 
 
-.swiper-wrapper{
-    width: 100% !important;
-}
+
 
 
 
