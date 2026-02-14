@@ -38,9 +38,3 @@ var swiper = new Swiper(".slide_product", {
         0: { slidesPerView: 1 }
     }
 });
-
-
-
-
-
-
