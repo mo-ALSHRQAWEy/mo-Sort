@@ -12,42 +12,33 @@ var swiper = new Swiper(".slide-swp", {
 
 
   /* swiper slide products */
-
-  var swiper = new Swiper(".slide_product", {
+var swiper = new Swiper(".slide_product", {
     slidesPerView: 5,
-    spaceBetween:20,
-    autoplay:{
-        delay:50,
-    },  pagination: {
-      el: ".swiper-pagination",
-      dynamicBullests: true,
-      clickable:true
+    spaceBetween: 20,
+    loop: true,
+    speed: 1200,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true
     },
-    navigation:{
-        nextEl:".swiper-button-next",
-        prevEl:".swiper-button-prev"
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true
     },
-    loop:true,
-    breakpoints:{
-      1200:{
-        slidesPerView : 5,
-        spaceBetween: 20
-      },
-      1000:{
-        slidesPerView : 4,
-        spaceBetween: 20
-      },
-      700:{
-        slidesPerView: 3 , 
-        spaceBetween: 15 ,
-
-      },
-      0:{
-        slidesPerView : 1,
-        spaceBetween: 18
-      }
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+    },
+    breakpoints: {
+        1200: { slidesPerView: 5 },
+        1000: { slidesPerView: 4 },
+        700: { slidesPerView: 3 },
+        500: { slidesPerView: 2 },
+        0: { slidesPerView: 1 }
     }
-  });
+});
+
 
 
 
